@@ -45,7 +45,6 @@ img {
 body {
   font-family: "Montserrat", sans-serif;
   /* font-family: "Roboto", sans-serif; */
-  background-color: gray;
 }
 
 .container {
@@ -62,10 +61,11 @@ body {
 }
 .header {
   color: #FFF;
-  height: 173px;
-  width: 177px;
-  margin-top: 19px;
-  margin-bottom: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .header .container {
@@ -94,4 +94,12 @@ body {
 .sign-up {
   border: 2px solid #FFF;
   border-radius: 20px;
+}
+
+.hero {
+  background-image: url(../../img/hero/desk-header\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 214px;
+  padding-bottom: 136px;
 }/*# sourceMappingURL=main.css.map */
