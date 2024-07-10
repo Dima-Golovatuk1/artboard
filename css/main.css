@@ -52,11 +52,22 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid red;
+  width: 100%;
 }
 
 @media screen and (min-width: 320px) {
   .container {
     width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }
 .header {
@@ -96,10 +107,86 @@ body {
   border-radius: 20px;
 }
 
+.header__logo {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 36px;
+  }
+  .header .container {
+    flex-direction: row-reverse;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .header__logo {
+    font-size: 20px;
+  }
+}
 .hero {
-  background-image: url(../../img/hero/desk-header\ 1.jpg);
+  background-image: url(../../img/hero/desk-header.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 214px;
   padding-bottom: 136px;
+  color: #FFF;
+  text-align: center;
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 306px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.hero__text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+
+.hero__button {
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 13px 37px;
+  background-color: #FF4E50;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 201px;
+    padding-bottom: 233px;
+  }
+  .hero__title {
+    font-size: 52px;
+    width: 507px;
+    margin-bottom: 36px;
+  }
+  .hero__text {
+    font-size: 24px;
+    width: 428px;
+    margin-bottom: 33px;
+  }
+  .hero__button {
+    padding: 13px 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -44,4 +44,31 @@ padding: 11px 15px;
 
 
 .header__logo {
+    color: $basic-color;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+
+
+// tablet 768px
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 36px;
+    }
+    
+    
+    .header .container{
+        flex-direction: row-reverse;
+        gap: 0;
+        justify-content: space-between;
+    }
+    
+    
+    .header__logo {
+    font-size: 20px;
+    }
 }
