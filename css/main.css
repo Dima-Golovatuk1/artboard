@@ -189,4 +189,38 @@ body {
   .hero__button {
     padding: 13px 10px;
   }
+}
+.partners {
+  padding-top: 70px;
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+.partners__title {
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.partners__img__thumb {
+  position: relative;
+}
+
+.partners__icon__overlay {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #FF4E50;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners__icon {
+  width: 16px;
+  height: 16px;
 }/*# sourceMappingURL=main.css.map */

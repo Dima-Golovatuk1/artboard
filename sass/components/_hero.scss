@@ -11,36 +11,36 @@
 
 
 .hero__title {
-text-align: center;
-font-size: 30px;
-font-weight: 700;
-text-transform: uppercase;
-width: 306px;
-margin: 0 auto;
-margin-bottom: 12px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 306px;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }
 
 
 .hero__text {
-text-align: center;
-font-family: "Roboto", sans-serif;
-font-size: 18px;
-font-weight: 300;
-width: 230px;
-margin: 0 auto;
-margin-bottom: 17px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 17px;
 }
 
 
 .hero__button {
     color: $basic-color;
-text-align: center;
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-padding: 13px 37px;
-background-color: $accent-color;
-border-radius: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 37px;
+    background-color: $accent-color;
+    border-radius: 20px;
 }
 
 
@@ -50,23 +50,23 @@ border-radius: 20px;
         padding-top: 201px;
         padding-bottom: 233px;
     }
-    
-    
+
+
     .hero__title {
-    font-size: 52px;
-    width: 507px;
-    margin-bottom: 36px;
+        font-size: 52px;
+        width: 507px;
+        margin-bottom: 36px;
     }
-    
-    
+
+
     .hero__text {
-    font-size: 24px;
-    width: 428px;
-    margin-bottom: 33px;
+        font-size: 24px;
+        width: 428px;
+        margin-bottom: 33px;
     }
-    
-    
+
+
     .hero__button {
-    padding: 13px 10px;
+        padding: 13px 10px;
     }
 }

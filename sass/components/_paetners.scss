@@ -1,0 +1,54 @@
+.partners {
+    padding-top: 70px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+
+.partners__title {
+    color: $title-color;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+
+.partners__list {}
+
+
+.partners__item {}
+
+
+.partners__img__thumb {
+    position: relative;
+}
+
+
+.partners__img {}
+
+
+.partners__icon__overlay {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #FF4E50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.partners__icon {
+width: 16px;
+height: 16px;
+
+}
+
+
+.partners__name {}
+
+
+.partners__text {}
